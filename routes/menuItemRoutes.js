@@ -69,5 +69,6 @@ router.delete('/:id', async (req, res) => {
         res.status(500).json({ error: err.message });
     }
 });
+// commented duplicate delete route
 
 module.exports = router;
