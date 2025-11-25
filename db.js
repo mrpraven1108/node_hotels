@@ -7,8 +7,8 @@ const localURL = "mongodb://127.0.0.1:27017/myDB";
 const atlasURL = "mongodb+srv://tpraveen2200:Parshya1108@cluster0.kpbuffo.mongodb.net/myDB";
 const mongoURL = process.env.MONGODB_URL;
 
-//const activeURL = localURL;   // 👉 Use Local MongoDB
-const activeURL = atlasURL;      // 👉 Use Online MongoDB (Atlas)
+const activeURL = localURL;   // 👉 Use Local MongoDB
+//const activeURL = atlasURL;      // 👉 Use Online MongoDB (Atlas)
 
 
 
